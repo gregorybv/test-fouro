@@ -39,7 +39,6 @@ td {
 
 .wrapper {
   min-height: 100%;
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
 }
@@ -189,6 +188,7 @@ td {
 /*=== FORM ===*/
 .registr{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .registr__title{

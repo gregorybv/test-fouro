@@ -6,13 +6,10 @@ for (const btn of filterBtns) {
   btn.addEventListener('click', function() {
     const filter = this.dataset.filter;
     
-    // Remove active class from all buttons
     filterBtns.forEach(btn => btn.classList.remove('active'));
-    
-    // Add active class to clicked button
+ 
     this.classList.add('active');
-    
-    // Show/hide grid items based on selected filter
+
     gridItems.forEach(item => {
       if (filter === 'all') {
         item.classList.remove('hidden');
