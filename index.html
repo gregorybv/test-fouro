@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="first">
+        <div class="container">
+          <h2 class="first__title">Сетка элементов с фильтром</h2>
+          <div class="filter">
+            <button class="filter__btn active" data-filter="all">All</button>
+            <button class="filter__btn" data-filter="one">one</button>
+            <button class="filter__btn" data-filter="two">two</button>
+            <button class="filter__btn" data-filter="three">three</button>
+            <button class="filter__btn" data-filter="four">four</button>
+          </div>
+
+          <div class="grid">
+            <img
+              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item one"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item two"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item three"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item four"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item one"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item two"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item three"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item four"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item one"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item two"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item three"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item four"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item one"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item two"
+            />
+            <img
+              src="https://images.unsplash.com/reserve/HgZuGu3gSD6db21T3lxm_San%20Zenone.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item three"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="images"
+              class="grid__item four"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="hover">
+        <div class="container">
+          <h2 class="hover__title">Hover эффект</h2>
+          <div class="block">
+            <div class="block-item">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1677693662991-50443ee7dd78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29ybGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ybGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29ybGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1531266752426-aad472b7bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ybGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1476304884326-cd2c88572c5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29ybGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1564053489984-317bbd824340?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d29ybGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1506111583091-becfd4bfa05d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1589519160142-7d1a51b43eaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1446776899648-aa78eefe8ed0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1550502369-d54b8f36db78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1584974292709-5c2f0619971b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1576185850227-1f72b7f8d483?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1536685632249-7e210d6e381e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1537820839152-7e0df898c5a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1548466497-45553404158b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1551385917-889e48f92c21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1560956497-877301cd884c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+            <div class="block-item">
+              <img
+                src="https://images.unsplash.com/photo-1628847970849-5473cfd0dcc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fHdvcmxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <div class="item-text">Некий текст)</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="registr">
+        <div class="container">
+          <h2 class="registr__title">Форма</h2>
+          <form class="registr__form" id="add-record-form">
+            <label class="registr__label" for="id"
+              >ID:
+              <input
+                class="registr__input"
+                type="text"
+                id="id"
+                name="id"
+                required
+                placeholder="Введите ID"
+              />
+            </label>
+            <label class="registr__label" for="first-name"
+              >Имя:
+              <input
+                class="registr__input"
+                type="text"
+                id="first-name"
+                name="first-name"
+                required
+                placeholder="Введите Имя"
+              />
+            </label>
+            <label class="registr__label" for="last-name"
+              >Фамилия:
+              <input
+                class="registr__input"
+                type="text"
+                id="last-name"
+                name="last-name"
+                required
+                placeholder="Введите Фамилию"
+              />
+            </label>
+            <label class="registr__label" for="email"
+              >Email:
+              <input
+                class="registr__input"
+                type="email"
+                id="email"
+                name="email"
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                placeholder="Введите Email"
+              />
+            </label>
+            <label class="registr__label" for="company"
+              >Компания:
+              <select
+                class="registr__input"
+                id="company"
+                name="company"
+                required
+              >
+                <option value="">Выберите компанию</option>
+                <option value='ООО "Рога и копыта"'>ООО "Рога и копыта"</option>
+                <option value='ИП "Иванов Иван Иванович"'>
+                  ИП "Иванов Иван Иванович"
+                </option>
+              </select>
+            </label>
+            <label class="registr__label" for="position"
+              >Должность:
+              <select
+                class="registr__input"
+                id="position"
+                name="position"
+                required
+                disabled
+              >
+                <option value="">Выберите должность</option>
+              </select>
+            </label>
+            <input class="registr__btn" type="submit" value="Добавить запись" />
+          </form>
+
+          <table class="registr__table" id="records-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Email</th>
+                <th>Компания</th>
+                <th>Должность</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
